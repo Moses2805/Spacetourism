@@ -26,7 +26,7 @@ const Technology = () => {
                     <div className="row d-flex justify-content-between align-items-center">
                         <div className="col-md-6 col-12 aboutTech">
 
-                            <div className="vehicleBox" style={{width: "100px"}}>
+                            <div className="vehicleBox" style={{width: "100%"}}>
                                 <ul className='techClicking d-flex'>
                                     <TechButtons techIndex={techIndex} techHandler={techHandler} />
                                 </ul>
@@ -53,7 +53,7 @@ const Technology = () => {
                     <div className="row d-flex justify-content-between align-items-center">
                         <div className="col-md-6 col-12 aboutTech">
 
-                            <div className="vehicleBox" style={{width: "100px"}}>
+                            <div className="vehicleBox" style={{width: "100%"}}>
                                 <ul className='techClicking d-flex'>
                                     <TechButtons techIndex={techIndex} techHandler={techHandler} />
 
@@ -84,7 +84,7 @@ const Technology = () => {
                     <div className="row d-flex justify-content-between align-items-center">
                         <div className="col-md-6 col-12 aboutTech">
 
-                            <div className="vehicleBox" style={{width: "100px"}}>
+                            <div className="vehicleBox" style={{width: "100%"}}>
                                 <ul className='techClicking d-flex'>
                                     <TechButtons techIndex={techIndex} techHandler={techHandler} />
 
