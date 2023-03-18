@@ -1,0 +1,18 @@
+
+.forTechBg{
+    background-color: $primaryColor;
+    color: $tertiaryColor;
+  }
+  
+  .forTechBgLight{
+    color: $primaryColor;
+  }
+  
+  .forCrewBg{
+    background-color: $primaryColor;
+    border-radius: 50%;
+  }
+  
+  .forDestBg{
+    border-bottom: 1px solid $primaryColor;
+  }

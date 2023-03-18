@@ -1,0 +1,19 @@
+@keyframes item-hover-off {
+    from {
+        outline: solid rgba(255, 255, 255, 0.3) 80px;
+    }
+
+    to {
+        outline: solid rgba(255, 255, 255, 0.3) 1px;
+    }
+}
+
+@keyframes item-hover {
+    from {
+        outline: solid rgba(255, 255, 255, 0.3) 1px;
+    }
+
+    to {
+        outline: solid rgba(255, 255, 255, 0.3) 80px;
+    }
+}

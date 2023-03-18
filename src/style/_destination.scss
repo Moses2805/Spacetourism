@@ -1,0 +1,56 @@
+.App {
+    main {
+        .container.destinationPage {
+            .row {
+                ul {
+                    list-style-type: none;
+                    padding: 30px;
+                    border-radius: 10px;
+                }
+                ul.clickingUl {
+                    li {
+                        color: $secondaryColor;
+                        font-family: $firstFontFamily;
+                        letter-spacing: 2px;
+                        text-decoration: none;
+                        font-size: 22px;
+                        cursor: pointer;
+                    }
+                }
+
+                h3{
+                    color: $secondaryColor;
+                    font-family: $firstFontFamily;
+                    letter-spacing: $firstLetterSpacing;
+                }
+                .line{
+                    border: 2px solid $primaryColor;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .aboutPlanets {
+            p {
+                color: $secondaryColor;
+                font-size: 20px;
+                font-family: $secondFontFamily;
+            }
+
+            h1{
+                color: $primaryColor;
+                font-family: $firstFontFamily;
+            }
+
+            ul{
+                h6{
+                    font-size: 12px;
+                    color: $secondaryColor;
+                    font-family: $secondFontFamily;
+                }
+            }
+        }
+
+    }
+
+}

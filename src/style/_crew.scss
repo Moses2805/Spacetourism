@@ -1,0 +1,45 @@
+.App {
+    main {
+        .container.crewPage {
+            .row {
+                h3 {
+                    color: $secondaryColor;
+                    font-family: $firstFontFamily;
+                    letter-spacing: $firstLetterSpacing;
+                }
+            }
+        }
+
+        .crewImages {
+            width: 100%;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .aboutStaff {
+            h1 {
+                color: $primaryColor;
+                // font-size: 4rem;
+                font-family: $firstFontFamily;
+            }
+
+            p {
+                color: $secondaryColor;
+                font-family: $firstFontFamily;
+                font-size: 22px;
+            }
+
+            .crewClicking {
+                li {
+                    list-style-type: none;
+                    color: $primaryColor;
+                    font-size: 35px;
+                    cursor: pointer;
+
+                }
+            }
+        }
+    }
+}

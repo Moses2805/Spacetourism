@@ -1,0 +1,33 @@
+.App {
+    header {
+        .container {
+            .row {
+                .logo {
+                    width: 50px;
+                    height: 50px;
+                    color: $primaryColor;
+                    cursor: pointer;
+                }
+
+                .navbarLinkBox {
+                    list-style-type: none;
+                    padding: 30px;
+                    border-radius: 10px;
+                    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 0.2) 17.8%, rgba(2, 245, 255, 0.2) 100.2%);
+
+                    .linkNavbar {
+                        color: $secondaryColor;
+                        font-family: $firstFontFamily;
+                        letter-spacing: $firstLetterSpacing;
+                        text-decoration: none;
+                        margin: 10px;
+                    }
+
+                }
+            }
+
+
+        }
+    }
+
+}

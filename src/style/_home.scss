@@ -1,0 +1,62 @@
+
+
+.App {
+    main {
+        .container.homePage {
+
+            margin-top: 18%;
+
+            .row {
+                h2 {
+                    color: $secondaryColor;
+                    font-family: $firstFontFamily;
+                    letter-spacing: $firstLetterSpacing;
+                }
+
+                h1 {
+                    // font-size: 150px;
+                    color: $primaryColor;
+                    font-family: $firstFontFamily;
+                }
+
+                .exploreBox {
+                    background-color: rgba(255, 255, 255, 0.8);
+                    height: 300px;
+                    width: 300px;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 300px;
+                    font-size: 30px;
+                    cursor: pointer;
+                    letter-spacing: $firstLetterSpacing;
+                    animation: item-hover-off 1s;
+                    animation-fill-mode: backwards;
+                    color: black;
+                    list-style-type: none;
+
+                    :hover {
+                        background-color: rgba(255, 255, 255, 0.8);
+                        height: 300px;
+                        width: 300px;
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: 300px;
+                        font-size: 30px;
+                        letter-spacing: 2px;
+                        animation: item-hover 1s;
+                        animation-fill-mode: forwards;
+                    }
+                }
+
+                p{
+                    color: $secondaryColor;
+                    font-size: 20px;
+                    font-family: $secondFontFamily;
+                }
+            }
+        }
+    }
+
+}
+
+
